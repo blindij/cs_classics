@@ -7,7 +7,7 @@ class: center
 
 --- 
 
-## From NTNU IT
+# From NTNU IT
 
 My group provide High Performance Computing services:
 * HPC-systems (idun,Saga, Fram, Betzy). Linux platforms with command line interface and batch systems
@@ -16,13 +16,13 @@ My group provide High Performance Computing services:
 
 ---
 
-## Nird Tool kit , https://apps.sigma2.no
+# Nird Tool kit , https://apps.sigma2.no
 
 <img src="img/nirdtoolkit.png" style="height: 450px;">
 
 --- 
 
-## Installing Jupyterlab with miniconda3
+# Installing Jupyterlab with miniconda3
 
 First we create a separate python environment. We switch to the
 environment and start installing packages.
@@ -39,7 +39,7 @@ $ conda activate jlab-lesson
 
 ---
 
-## Starting Jupyterlab
+# Starting Jupyterlab
 We start the Jupyter Lab instance with command `jupyter-lab`:
 ```
 (jlab-session)$ 
