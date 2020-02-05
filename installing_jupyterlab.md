@@ -49,7 +49,18 @@ Installing packages:
 ---
 
 ## Starting Jupyterlab
-We start the Jupyter Lab instance with command `jupyter-lab`:
+Make a new subdirectory before you start JupyterLab. We start the
+JupyterLab instance with command `jupyter-lab`:
 ```
+(jlab-session)$ mkdir jlab
+(jlab-session)$ cd jlab
 (jlab-session)$ jupyter-lab
 ```
+
+## JupyterLab documentation
+https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html
+
+## Select Git icon and clone a repository
+
+Here is the GitHub repository to clone:
+https://github.com/blindij/cs_classics.git
