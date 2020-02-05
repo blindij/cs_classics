@@ -1,13 +1,14 @@
-class: center
 
 # Jupyter Notebooks
 ## Author: Bjørn Lindi
 
 * *English/Norsk?*
+* https://www.coderefinery.org
+* Workshop Feb 25-28 at the Technology Library, NTNU
 
 --- 
 
-# From NTNU IT
+## From NTNU IT
 
 My group provide High Performance Computing services:
 * HPC-systems (idun,Saga, Fram, Betzy). Linux platforms with command line interface and batch systems
@@ -22,13 +23,21 @@ My group provide High Performance Computing services:
 
 --- 
 
-# Installing Jupyterlab with miniconda3
+## Anybody who have not install miniconda3 or Anaconda3
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+
+
+## Installing Jupyterlab with miniconda3
 
 First we create a separate python environment. We switch to the
 environment and start installing packages.
 ```sh
 $ conda create -n jlab-lesson
 $ conda activate jlab-lesson
+```
+
+Installing packages:
+```
 (jlab-lesson)$ conda install -c conda-forge jupyterlab
 (jlab-lesson)$ conda install nodejs
 (jlab-lesson)$ nbdime extensions --enable
@@ -39,8 +48,8 @@ $ conda activate jlab-lesson
 
 ---
 
-# Starting Jupyterlab
+## Starting Jupyterlab
 We start the Jupyter Lab instance with command `jupyter-lab`:
 ```
-(jlab-session)$ 
+(jlab-session)$ jupyter-lab
 ```
